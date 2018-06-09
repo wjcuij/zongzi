@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.bk{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.bk img{
+    width: 100%;
+    display: block;
+}
+.logo{
+   
+}
