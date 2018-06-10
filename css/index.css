@@ -2,6 +2,7 @@ body{
     width: 100%;
     margin:0;
     padding:0;
+    overflow: hidden;
 }
 .bk{
     width: 100%;
@@ -14,4 +15,84 @@ body{
 }
 .logo{
    
+}
+.content{
+	position: relative;	
+	background:radial-gradient(circle,#73c739,rgba(111,193,56,.8),rgba(82,149,47,.3));
+}
+.huaduo{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	display: block;
+	left: 0;
+}
+.xueliang{
+	margin:0 auto;
+	width: 60%;
+	background: url('../img/xueliang.png')center no-repeat;
+	height: 151px;
+	background-size: 100%;
+	    padding-top:40px;
+    box-sizing: border-box;
+}
+.xueliang img{
+width: 100%;
+
+}
+.xl_ul{padding-left: 0;display: flex;padding:0 26px;}
+.xl_ul li{
+	/*float: left;*/
+	    flex: 1;
+    display: flex;
+}
+.xl_ul li div{
+	/*width: 28px;*/
+	height:68px;	
+	background:#f2ce51;
+	/*float: left;*/
+	margin-right: 7px;
+	flex: 1;
+	border-radius:20px;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+.time{
+	background:url('../img/time.png');
+	margin:0 auto;
+	width: 60%;
+	height: 120px;
+	background-size: 100%;
+	    padding:34px 28px 28px 118px;
+    box-sizing: border-box;
+}
+.time div{
+	background:#e95230;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 34px 10px;
+}
+.main{position: relative;}
+#trapezoid {
+	font-size: 22px;
+    border-bottom: 62px solid #e95230;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 138px;
+    transform: rotate(-38deg);
+    position: absolute;
+    left: -46px;
+    top: 100px;
+    line-height: 3;
+    color:#e4e4e4;
+}
+.zhuti{
+	width: 60%;
+	margin:0 auto;
+	height: 500px;
+	padding-top: 200px;
+}
+.zhuti img{
+	width: 100%;
 }
